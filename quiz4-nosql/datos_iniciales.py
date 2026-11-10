@@ -1,0 +1,73 @@
+"""
+Datos de ejemplo. Observe que cada categoría tiene campos distintos:
+en una base relacional esto obligaría a crear varias tablas o muchas
+columnas vacías; en MongoDB cada documento simplemente tiene lo que necesita.
+"""
+
+PRODUCTOS = [
+    {
+        "sku": "LAP-001",
+        "nombre": "Laptop Lenovo IdeaPad 5",
+        "categoria": "electronica",
+        "precio": 650000,
+        "stock": 8,
+        "especificaciones": {"ram_gb": 16, "almacenamiento_gb": 512, "procesador": "Ryzen 7"},
+        "etiquetas": ["laptop", "estudiantes", "oferta"],
+        "resenas": [
+            {"usuario": "ana", "estrellas": 5, "comentario": "Muy rápida"},
+            {"usuario": "luis", "estrellas": 4, "comentario": "Buena batería"},
+        ],
+    },
+    {
+        "sku": "AUD-002",
+        "nombre": "Audífonos Sony WH-CH520",
+        "categoria": "electronica",
+        "precio": 35000,
+        "stock": 25,
+        "especificaciones": {"inalambrico": True, "bateria_horas": 50},
+        "colores": ["negro", "blanco", "azul"],
+        "etiquetas": ["audio", "bluetooth"],
+        "resenas": [
+            {"usuario": "sofia", "estrellas": 3, "comentario": "Suenan bien, aprietan un poco"},
+        ],
+    },
+    {
+        "sku": "CAM-010",
+        "nombre": "Camiseta TEC Ingeniería en Computadores",
+        "categoria": "ropa",
+        "precio": 9500,
+        "stock": 40,
+        "tallas": ["S", "M", "L", "XL"],
+        "material": "algodón",
+        "etiquetas": ["tec", "estudiantes"],
+        "resenas": [],
+    },
+    {
+        "sku": "LIB-100",
+        "nombre": "Introduction to Algorithms",
+        "categoria": "libros",
+        "precio": 42000,
+        "stock": 5,
+        "autor": ["Cormen", "Leiserson", "Rivest", "Stein"],
+        "edicion": 4,
+        "idioma": "inglés",
+        "etiquetas": ["algoritmos", "estudiantes"],
+        "resenas": [
+            {"usuario": "carlos", "estrellas": 5, "comentario": "La biblia de Datos II"},
+            {"usuario": "maria", "estrellas": 5, "comentario": "Indispensable"},
+        ],
+    },
+    {
+        "sku": "LIB-101",
+        "nombre": "Clean Code",
+        "categoria": "libros",
+        "precio": 28000,
+        "stock": 0,
+        "autor": ["Robert C. Martin"],
+        "idioma": "inglés",
+        "etiquetas": ["buenas prácticas"],
+        "resenas": [
+            {"usuario": "ana", "estrellas": 4, "comentario": "Útil para proyectos"},
+        ],
+    },
+]
