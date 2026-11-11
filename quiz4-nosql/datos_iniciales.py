@@ -1,9 +1,3 @@
-"""
-Datos de ejemplo. Observe que cada categoría tiene campos distintos:
-en una base relacional esto obligaría a crear varias tablas o muchas
-columnas vacías; en MongoDB cada documento simplemente tiene lo que necesita.
-"""
-
 PRODUCTOS = [
     {
         "sku": "LAP-001",

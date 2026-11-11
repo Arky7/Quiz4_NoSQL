@@ -1,12 +1,3 @@
-"""
-Conexión a la base de datos MongoDB.
-
-Por defecto se conecta a mongodb://localhost:27017 (por ejemplo, el contenedor
-de docker-compose.yml). Se puede cambiar con la variable de entorno MONGO_URI.
-
-Si se ejecuta con la variable USAR_MOCK=1, se usa mongomock: una MongoDB
-simulada en memoria, útil para probar el programa sin instalar MongoDB.
-"""
 import os
 
 NOMBRE_BD = "tienda_online"
