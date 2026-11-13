@@ -3,7 +3,7 @@
 Algoritmos y Estructuras de Datos II (CE 2103) – II Semestre 2026
 Instituto Tecnológico de Costa Rica – Ingeniería en Computadores
 
-**Integrantes:** _(nombres aquí)_
+**Integrantes:** _(Ricardo Bolaños Sanabria y Alejandro Arias López)_
 
 **Tipo de base de datos elegido:** Documentos (MongoDB)
 **Lenguaje:** Python
